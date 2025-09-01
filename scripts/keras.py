@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.preprocessing import image_dataset_from_directory
 
-DATA_ROOT = os.environ.get("AMHCD_DIR", "/content/drive/MyDrive/Master/data/MNIST_CNN_TP") 
+DATA_ROOT = os.environ.get("MNIST_CNN_TP", "/content/drive/MyDrive/Master/data/MNIST_CNN_TP") 
 IMG_SIZE = (64,64); BATCH=32; NUM_CLASSES=34
 
 os.makedirs("outputs", exist_ok=True)
