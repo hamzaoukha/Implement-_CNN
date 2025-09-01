@@ -39,3 +39,5 @@ python scripts/train_mnist_keras.py
 
 # PyTorch
 python scripts/train_mnist_torch.py
+
+Full Code in google colab : https://colab.research.google.com/drive/1YL0op4tPYIhMothgmFGrC1_idcOUoyVC?usp=sharing
