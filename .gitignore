@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Data / Datasets
+data/
+datasets/
+*.npz
+*.npy
+
+# Outputs
+outputs/
+!outputs/.keep
+
+# Models
+*.h5
+*.keras
+*.pth
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
